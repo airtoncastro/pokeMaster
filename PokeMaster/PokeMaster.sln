@@ -1,0 +1,56 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34031.279
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PokeMaster.API", "src\PokeMaster.API\PokeMaster.API.csproj", "{5CDCF174-AD6A-40E9-9D90-ACCD20DEF91C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{630F30C8-792C-4B05-A949-0557B752D824}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PokeMaster.Domain", "src\PokeMaster.Domain\PokeMaster.Domain.csproj", "{1AA38B17-824F-447A-8E4E-B13833C5104E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PokeMaster.Infra", "PokeMaster.Infra\PokeMaster.Infra.csproj", "{A8CC2F93-4E22-4158-990A-A3FB47B5D4D1}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PokeMaster.Application", "PokeMaster.Application\PokeMaster.Application.csproj", "{72744B51-DE85-4F09-8DEC-CE9C28BF4EE9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{9EC1672C-964D-4019-B908-1FB75F9DB319}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5CDCF174-AD6A-40E9-9D90-ACCD20DEF91C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5CDCF174-AD6A-40E9-9D90-ACCD20DEF91C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5CDCF174-AD6A-40E9-9D90-ACCD20DEF91C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5CDCF174-AD6A-40E9-9D90-ACCD20DEF91C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1AA38B17-824F-447A-8E4E-B13833C5104E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1AA38B17-824F-447A-8E4E-B13833C5104E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1AA38B17-824F-447A-8E4E-B13833C5104E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1AA38B17-824F-447A-8E4E-B13833C5104E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A8CC2F93-4E22-4158-990A-A3FB47B5D4D1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A8CC2F93-4E22-4158-990A-A3FB47B5D4D1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A8CC2F93-4E22-4158-990A-A3FB47B5D4D1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A8CC2F93-4E22-4158-990A-A3FB47B5D4D1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{72744B51-DE85-4F09-8DEC-CE9C28BF4EE9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{72744B51-DE85-4F09-8DEC-CE9C28BF4EE9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{72744B51-DE85-4F09-8DEC-CE9C28BF4EE9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{72744B51-DE85-4F09-8DEC-CE9C28BF4EE9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{5CDCF174-AD6A-40E9-9D90-ACCD20DEF91C} = {630F30C8-792C-4B05-A949-0557B752D824}
+		{1AA38B17-824F-447A-8E4E-B13833C5104E} = {630F30C8-792C-4B05-A949-0557B752D824}
+		{A8CC2F93-4E22-4158-990A-A3FB47B5D4D1} = {630F30C8-792C-4B05-A949-0557B752D824}
+		{72744B51-DE85-4F09-8DEC-CE9C28BF4EE9} = {630F30C8-792C-4B05-A949-0557B752D824}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E5133A8C-A700-46A0-83DA-AFE201D6B14F}
+	EndGlobalSection
+EndGlobal
